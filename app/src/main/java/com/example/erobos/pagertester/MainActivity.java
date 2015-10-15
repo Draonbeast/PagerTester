@@ -161,7 +161,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             int resId = 0;
             switch (position) {
                 case 0:
-                    resId = R.layout.fragment_main;
+                    //resId = R.layout.fragment_main;
                     break;
                 case 1:
                     resId = R.layout.fragment2;
