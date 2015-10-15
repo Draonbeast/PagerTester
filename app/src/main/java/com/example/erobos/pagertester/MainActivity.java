@@ -23,7 +23,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.fragment_main);
 
         MyPagerAdapter adapter = new MyPagerAdapter();
         ViewPager myPager = (ViewPager) findViewById(R.id.mypanelpager);
