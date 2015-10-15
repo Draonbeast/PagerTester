@@ -32,6 +32,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         mainButton = (Button)findViewById(R.id.main_button);
         scoreBox = (TextView) findViewById(R.id.score_box);
+        if(scoreBox != null){
+            scoreBox.setText("Scorebox Works");
+        }else {
+            mainButton.setText("ScoreBox doesn't work");
+        }
 
         initializeButtons();
 /*
